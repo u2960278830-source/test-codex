@@ -1,9 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a//dev/null b/butterfly_trapezoid.py
-index 0000000000000000000000000000000000000000..036a3062997ebc44ed94a187b888d8b32c566a0a 100644
---- a//dev/null
-+++ b/butterfly_trapezoid.py
-@@ -0,0 +1,153 @@
 +from __future__ import annotations
 +
 +from typing import Sequence
